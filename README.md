@@ -34,7 +34,11 @@ username@servername:~/step03Image$ tree
 ### Ubuntu 기반의 Nginx 이미지 
 **1. Dockerfile 작성**
 ```bash
+# 베이스 이미지 설정
 FROM nginx
+
+# 컨테이너 실행시 명령어: Nginx를 포그라운드에서 실행
+CMD ["nginx", "-g", "daemon off;"]
 ```
 **2. Docker 이미지 빌드**
 ```bash
@@ -47,7 +51,11 @@ docker build -t ubuntunginx .
 
 **1. Dockerfile 작성**
 ```bash
+# 베이스 이미지 설정
 FROM nginx:alpine
+
+# 컨테이너 실행시 명령어: Nginx를 포그라운드에서 실행
+CMD ["nginx", "-g", "daemon off;"]
 ```
 **2. Docker 이미지 빌드**
 ```bash
