@@ -13,7 +13,22 @@
 **Ubuntu 22.04.5 LTS**
 <br/><br/>
 
+## 🔎 사전 작업
+### Dockerfile 파일 위치 할 폴더 생성
+```bash
+mkdir step03Image
+```
+
+### Dockerfile 파일 위치
+```bash
+username@servername:~/step03Image$ tree
+.
+└── Dockerfile
+```
+<br/><br/>
+
 ## 🔧 Docker Image 최적화 방법 1 : 최소한의 기본 이미지를 사용
+
 ### Ubuntu 기반의 Nginx 이미지 
 **1. Dockerfile 작성**
 ```bash
