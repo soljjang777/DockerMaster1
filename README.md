@@ -9,8 +9,10 @@
 이 과정을 통해 제 기술과 지식을 더욱 발전시키고자 합니다.
 <br/><br/>
 
-## 💻 시스템 환경
-**Ubuntu 22.04.5 LTS**
+## 💻 시스템 환경 및 소프트웨어
+**Ubuntu 22.04.5 LTS** <br/>
+**Docker version 27.3.1** <br/>
+**visual studio code** <br/>
 <br/><br/>
 
 ## 🔎 사전 작업
