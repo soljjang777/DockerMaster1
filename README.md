@@ -37,6 +37,9 @@ username@servername:~/step03Image$ tree
 # 베이스 이미지 설정
 FROM nginx
 
+COPY ./config/nginx.conf /etc/nginx/conf.d/nginx.conf
+COPY ./html/index.html /usr/share/nginx/html/index.html
+
 # 컨테이너 실행시 명령어: Nginx를 포그라운드에서 실행
 CMD ["nginx", "-g", "daemon off;"]
 ```
@@ -53,6 +56,9 @@ docker build -t ubuntunginx .
 ```bash
 # 베이스 이미지 설정
 FROM nginx:alpine
+
+COPY ./config/nginx.conf /etc/nginx/conf.d/nginx.conf
+COPY ./html/index.html /usr/share/nginx/html/index.html
 
 # 컨테이너 실행시 명령어: Nginx를 포그라운드에서 실행
 CMD ["nginx", "-g", "daemon off;"]
