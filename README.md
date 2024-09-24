@@ -43,7 +43,7 @@ docker build -t alpinenginx .
  - alpinenginx가 ubuntunginx보다 144.8 MB 더 작음.
  - 상대적으로, alpinenginx는 ubuntunginx의 약 **23%** 에 해당하는 용량.
 ```bash
-username@servername:~/step03Image$ docker images
+username@servername:~$ docker images
 REPOSITORY              TAG       IMAGE ID       CREATED         SIZE
 alpinenginx             latest    c7b4f26a7d93   5 weeks ago     43.2MB
 ubuntunginx             latest    39286ab8a5e1   5 weeks ago     188MB
