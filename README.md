@@ -12,7 +12,7 @@
 ## 💻 시스템 환경 및 소프트웨어
 **Ubuntu 22.04.5 LTS** <br/>
 **Docker version 27.3.1** <br/>
-**visual studio code** <br/>
+**Visual studio code** <br/>
 <br/><br/>
 
 ## 🔎 사전 작업
