@@ -50,6 +50,13 @@ ubuntunginx             latest    39286ab8a5e1   5 weeks ago     188MB
 ```
 **→ alpinenginx 이미지가 더 가벼운 선택이며, 용량이 적은 이미지가 필요할 때 유용**
 
+<br/>
 
+## 🧪 References
+### 참고1
+[Reduce the Size of the Docker Image](https://faun.pub/reduce-the-size-of-the-docker-image-e6895b653419)
+
+### 참고2
+[Docker Image Optimization Tips & Tricks](https://overcast.blog/docker-image-optimization-tips-tricks-6a17f687162b)
 
 
