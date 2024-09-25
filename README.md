@@ -71,6 +71,8 @@ docker build -t alpinenginx .
 <br/>
 
 ### 결과:두 이미지 용량 비교
+<img src="https://github.com/user-attachments/assets/6e135b3c-0e2c-4b05-ad8a-63f538b2f1b5" width="350">
+
  - alpinenginx가 ubuntunginx보다 144.8 MB 더 작음.
  - 상대적으로, alpinenginx는 ubuntunginx의 약 **23%** 에 해당하는 용량.
 ```bash
